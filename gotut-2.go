@@ -1,8 +1,13 @@
-package main
+// TO GET DOCUMENTATION ON PACKAGE OR FUNCTION
+// $ godoc <package> <function>
+// $ godoc fmt Println
+// $ godoc math/rand Intn
+
+package main // This will always go at the top level
 
 import (
-  "fmt"
-  "math"
+	"fmt" // Function for
+	"math"
 	"math/rand"
 )
 
